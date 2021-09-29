@@ -13,7 +13,7 @@ const AboutTwo = () => {
                             <div className="about-me">
                                 <div className="img">
                                     <div className="img-in">
-                                        <img src="img/IMG_20200708_202332.jpg" alt="about image"/>
+                                        <img src="https://placepic.ru/wp-content/uploads/2018/11/1119.jpg" alt="about image"/>
                                     </div>
                                     <Social/>
                                 </div>

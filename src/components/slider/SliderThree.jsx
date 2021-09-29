@@ -10,7 +10,7 @@ const sliderContent = {
     btnText: "DOWNLOAD CV",
 };
 
-const SliderTwo = () => {
+const Slider = () => {
     return (
         <>
             <section
@@ -18,7 +18,7 @@ const SliderTwo = () => {
                 className="home-banner home-banner-two"
                 style={{
                     backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "img/IMG_20200708_202336.jpg"
+                        process.env.PUBLIC_URL + "/img/1.jpg"
                     })`,
                 }}
             >
@@ -97,4 +97,4 @@ const SliderTwo = () => {
     );
 };
 
-export default SliderTwo;
+export default Slider;

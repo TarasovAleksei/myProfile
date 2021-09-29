@@ -4,7 +4,7 @@ import Footer from "../components/footer/Footer";
 import useDocumentTitle from "../components/useDocumentTitle";
 
 const NotFound = () => {
-  useDocumentTitle("Not Found || React Personal Portfolio Template");
+  useDocumentTitle("Not Found || Tarasov_Alexey");
   return (
     <>
       <section className="error-page-wrapper">

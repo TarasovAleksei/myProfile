@@ -12,55 +12,54 @@ const breakpointColumnsObj = {
     500: 1,
 };
 
-
 const AllPortfolioContent = [
     {
         img: "todo",
         title: "Todo-list",
         subTitle: "React+TS+Material.UI",
-        alterText: "https://github.com/TarasovAleksei/todolist",
+        alterText:`https://github.com/TarasovAleksei/todolist`
     },
     {
         img: "social",
         title: "Social network",
         subTitle: "React+TS",
-        alterText: "Social network",
+        alterText: "https://github.com/TarasovAleksei/social_network",
     },
     {
         img: "uikit",
         title: "UI kit",
         subTitle: "React+TS+AntDesign",
-        alterText: "UI kit",
+        alterText: "https://github.com/TarasovAleksei/tasks_by_Ignat",
     },
     {
         img: "chat",
         title: "Chat",
         subTitle: "React+JS+Material.UI",
-        alterText: "Chat",
+        alterText: "https://github.com/TarasovAleksei/ChatReactClass",
     },
     {
         img: "html",
         title: "HTML/CSS-1",
         subTitle: "SASS",
-        alterText: "HTML/CSS-1",
+        alterText: "https://github.com/TarasovAleksei/dynamicTable",
     },
     {
         img: "html",
         title: "HTML/CSS-2",
         subTitle: "SASS",
-        alterText: "HTML/CSS-2",
+        alterText: "https://github.com/TarasovAleksei/dynamicTable",
     },
     {
         img: "html",
         title: "HTML/CSS-3",
         subTitle: "SASS",
-        alterText: "HTML/CSS-3",
+        alterText: "https://github.com/TarasovAleksei/dynamicTable",
     },
     {
         img: "html",
         title: "HTML/CSS-4",
         subTitle: "SASS",
-        alterText: "HTML/CSS-4",
+        alterText: "https://github.com/TarasovAleksei/dynamicTable",
     },
 ];
 
@@ -85,11 +84,11 @@ const Portfolio = () => {
                                                     <span>{val.subTitle}</span>
                                                 </div>
                                                 <a
-                                                    href='https://github.com/TarasovAleksei/todolist'
+                                                    href={`myProfile/img/portfolio/${val.img}.jpg`}
                                                     className="gallery-link"
                                                 >
                                                     <img
-                                                        src={`img/portfolio/${val.img}.jpg`} alt={val.alterText}
+                                                        src={`myProfile/img/portfolio/${val.img}.jpg`} alt={val.alterText}
                                                     />
                                                 </a>
                                                 <div className="portfolio-icon">

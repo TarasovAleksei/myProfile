@@ -34,7 +34,7 @@ const HeaderTwo = () => {
                 <div className="scroll-bar">
                     <div className="hl-top">
                         <div className="hl-logo">
-                            <Link to="/">A</Link>
+                            <Link to="/myProfile">A</Link>
                         </div>
                     </div>
                     <Scrollspy
