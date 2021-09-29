@@ -10,7 +10,7 @@ const Routes = () => {
             <Router>
                 <ScrollTopBehaviour/>
                 <Switch>
-                    <Route exact path="/" component={HomeDarkParticles}/>
+                    <Route exact path="/myProfile" component={HomeDarkParticles}/>
                     <Route component={NotFound}/>
                 </Switch>
             </Router>
