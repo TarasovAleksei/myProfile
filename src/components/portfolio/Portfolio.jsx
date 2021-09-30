@@ -4,6 +4,13 @@ import SimpleReactLightbox from "simple-react-lightbox";
 import {SRLWrapper} from "simple-react-lightbox";
 import {FiPlus} from "react-icons/fi";
 import Masonry from "react-masonry-css";
+import todoPhoto from '../../assets/img/portfolio/todo.jpg'
+import socPhoto from '../../assets/img/portfolio/social.jpg'
+import uikitPhoto from '../../assets/img/portfolio/uikit.jpg'
+import chat from '../../assets/img/portfolio/chat.jpg'
+import html from '../../assets/img/portfolio/html.jpg'
+
+
 
 const breakpointColumnsObj = {
     default: 4,
@@ -14,49 +21,49 @@ const breakpointColumnsObj = {
 
 const AllPortfolioContent = [
     {
-        img: "todo",
+        img: todoPhoto,
         title: "Todo-list",
         subTitle: "React+TS+Material.UI",
         alterText:`https://github.com/TarasovAleksei/todolist`
     },
     {
-        img: "social",
+        img: socPhoto,
         title: "Social network",
         subTitle: "React+TS",
         alterText: "https://github.com/TarasovAleksei/social_network",
     },
     {
-        img: "uikit",
+        img: uikitPhoto,
         title: "UI kit",
         subTitle: "React+TS+AntDesign",
         alterText: "https://github.com/TarasovAleksei/tasks_by_Ignat",
     },
     {
-        img: "chat",
+        img: chat,
         title: "Chat",
         subTitle: "React+JS+Material.UI",
         alterText: "https://github.com/TarasovAleksei/ChatReactClass",
     },
     {
-        img: "html",
+        img: html,
         title: "HTML/CSS-1",
         subTitle: "SASS",
         alterText: "https://github.com/TarasovAleksei/dynamicTable",
     },
     {
-        img: "html",
+        img: html,
         title: "HTML/CSS-2",
         subTitle: "SASS",
         alterText: "https://github.com/TarasovAleksei/dynamicTable",
     },
     {
-        img: "html",
+        img: html,
         title: "HTML/CSS-3",
         subTitle: "SASS",
         alterText: "https://github.com/TarasovAleksei/dynamicTable",
     },
     {
-        img: "html",
+        img: html,
         title: "HTML/CSS-4",
         subTitle: "SASS",
         alterText: "https://github.com/TarasovAleksei/dynamicTable",
@@ -84,11 +91,11 @@ const Portfolio = () => {
                                                     <span>{val.subTitle}</span>
                                                 </div>
                                                 <a
-                                                    href={`myProfile/img/portfolio/${val.img}.jpg`}
+                                                    href={val.img}
                                                     className="gallery-link"
                                                 >
                                                     <img
-                                                        src={`myProfile/img/portfolio/${val.img}.jpg`} alt={val.alterText}
+                                                        src={val.img} alt={val.alterText}
                                                     />
                                                 </a>
                                                 <div className="portfolio-icon">

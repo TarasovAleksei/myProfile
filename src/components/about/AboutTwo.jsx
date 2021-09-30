@@ -1,7 +1,7 @@
 import React from "react";
 import Social from "../Social";
 import Services from "../service/Service";
-
+import myPhoto from '../../assets/img/myPhoto2.jpg'
 
 const AboutTwo = () => {
     return (
@@ -13,7 +13,7 @@ const AboutTwo = () => {
                             <div className="about-me">
                                 <div className="img">
                                     <div className="img-in">
-                                        <img src="https://placepic.ru/wp-content/uploads/2018/11/1119.jpg" alt="about image"/>
+                                        <img src={myPhoto} alt="about image"/>
                                     </div>
                                     <Social/>
                                 </div>
