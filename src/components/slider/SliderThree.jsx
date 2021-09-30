@@ -18,7 +18,7 @@ const Slider = () => {
                 className="home-banner home-banner-two"
                 style={{
                     backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "/img/1.jpg"
+                        process.env.PUBLIC_URL+ "/img/1.jpg"
                     })`,
                 }}
             >

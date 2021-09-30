@@ -11,7 +11,6 @@ import chat from '../../assets/img/portfolio/chat.jpg'
 import html from '../../assets/img/portfolio/html.jpg'
 
 
-
 const breakpointColumnsObj = {
     default: 4,
     1100: 3,
@@ -24,7 +23,7 @@ const AllPortfolioContent = [
         img: todoPhoto,
         title: "Todo-list",
         subTitle: "React+TS+Material.UI",
-        alterText:`https://github.com/TarasovAleksei/todolist`
+        alterText: `https://github.com/TarasovAleksei/todolist`
     },
     {
         img: socPhoto,
@@ -84,25 +83,25 @@ const Portfolio = () => {
                                     columnClassName="my-masonry-grid_column"
                                 >
                                     {AllPortfolioContent.map((val, i) => (
-                                        <div className="portfolio-box-01" key={i}>
+                                        <a target={'_blank'} href={val.alterText} className="portfolio-box-01" key={i}>
                                             <div className="portfolio-img">
                                                 <div className="portfolio-info">
                                                     <h5>{val.title}</h5>
                                                     <span>{val.subTitle}</span>
                                                 </div>
-                                                <a
-                                                    href={val.img}
+                                                <div
+
                                                     className="gallery-link"
                                                 >
                                                     <img
                                                         src={val.img} alt={val.alterText}
                                                     />
-                                                </a>
+                                                </div>
                                                 <div className="portfolio-icon">
                                                     <FiPlus/>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     ))}
                                 </Masonry>
                             </div>

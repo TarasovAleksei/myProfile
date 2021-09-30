@@ -142,6 +142,7 @@
 
 /*Portfolio Style 2*/
 .portfolio-box-01 {
+  display: block;
   background: $px-white;
   position: relative;
 
@@ -206,6 +207,7 @@
   }
 
   .portfolio-info {
+    height: calc(100% - 40px);
     position: absolute;
     top: 40px;
     left: 20px;
