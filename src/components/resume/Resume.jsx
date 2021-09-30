@@ -79,11 +79,7 @@ const Resume = () => {
           </div>
           <div
             className="separated"
-            style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
-              })`,
-            }}
+
           ></div>
 
           <div className="title">

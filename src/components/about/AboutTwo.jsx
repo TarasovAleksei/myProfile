@@ -96,24 +96,13 @@ const AboutTwo = () => {
                     </div>
                     <div
                         className="separated"
-                        style={{
-                            backgroundImage: `url(${
-                                process.env.PUBLIC_URL + "img/border-dark.png"
-                            })`,
-                        }}
+
                     ></div>
                     <div className="title">
                         <h3>What I do?</h3>
                     </div>
                     <Services/>
-                    <div
-                        className="separated"
-                        style={{
-                            backgroundImage: `url(${
-                                process.env.PUBLIC_URL + "img/border-dark.png"
-                            })`,
-                        }}
-                    ></div>
+
 
                 </div>
             </section>
