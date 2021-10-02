@@ -1,5 +1,6 @@
 import React from "react";
 import Particles from "react-particles-js";
+import CV from '../../assets/img/TarasovAlex.pdf'
 
 const sliderContent = {
     name: "Alexey Tarasov",
@@ -82,7 +83,7 @@ const Slider = () => {
                                 >
                                     <a
                                         className="px-btn px-btn-white"
-                                        href=""
+                                        href={CV}
                                         download
                                     >
                                         {sliderContent.btnText}
