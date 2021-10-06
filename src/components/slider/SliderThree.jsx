@@ -1,6 +1,6 @@
 import React from "react";
 import Particles from "react-particles-js";
-import CV from '../../assets/img/TarasovAlex.pdf'
+import CV from '../../assets/img/TarasovAlex_ver3.0.pdf'
 
 const sliderContent = {
     name: "Alexey Tarasov",
