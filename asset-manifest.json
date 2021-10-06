@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myProfile/static/css/main.b22283d1.chunk.css",
-    "main.js": "/myProfile/static/js/main.b830b7c9.chunk.js",
-    "main.js.map": "/myProfile/static/js/main.b830b7c9.chunk.js.map",
+    "main.js": "/myProfile/static/js/main.8c6d11a4.chunk.js",
+    "main.js.map": "/myProfile/static/js/main.8c6d11a4.chunk.js.map",
     "runtime-main.js": "/myProfile/static/js/runtime-main.0bef97f0.js",
     "runtime-main.js.map": "/myProfile/static/js/runtime-main.0bef97f0.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/myProfile/static/css/2.7fc9bc2b.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.7fc9bc2b.chunk.css.map": "/myProfile/static/css/2.7fc9bc2b.chunk.css.map",
     "static/css/main.b22283d1.chunk.css.map": "/myProfile/static/css/main.b22283d1.chunk.css.map",
     "static/js/2.11509a66.chunk.js.LICENSE.txt": "/myProfile/static/js/2.11509a66.chunk.js.LICENSE.txt",
-    "static/media/TarasovAlex.3852dc70.pdf": "/myProfile/static/media/TarasovAlex.3852dc70.pdf",
+    "static/media/TarasovAlex_ver3.0.98bdebef.pdf": "/myProfile/static/media/TarasovAlex_ver3.0.98bdebef.pdf",
     "static/media/chat.ed2eb5a4.jpg": "/myProfile/static/media/chat.ed2eb5a4.jpg",
     "static/media/main.scss": "/myProfile/static/media/et-line.d59b2385.woff",
     "static/media/html.684b03a9.jpg": "/myProfile/static/media/html.684b03a9.jpg",
@@ -29,6 +29,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.11509a66.chunk.js",
     "static/css/main.b22283d1.chunk.css",
-    "static/js/main.b830b7c9.chunk.js"
+    "static/js/main.8c6d11a4.chunk.js"
   ]
 }
